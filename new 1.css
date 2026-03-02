@@ -1,0 +1,16 @@
+p {
+  font-size: 16px;
+  color: black;
+}
+
+/* Paragraph 2 */
+p:nth-of-type(2) {
+  color: blue;
+  font-weight: bold;
+}
+
+/* Paragraph 3 */
+p:nth-of-type(3) {
+  color: green;
+  font-style: italic;
+}

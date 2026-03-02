@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Universal Selector Margin & Padding Demo</title>
+  <style>
+    /* Set 1: margin 0, padding 0 */
+    #set1 * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Set 2: margin 10px, padding 10px */
+    #set2 * {
+      margin: 10px;
+      padding: 10px;
+    }
+
+    /* Set 3: margin 50px, padding 50px */
+    #set3 * {
+      margin: 50px;
+      padding: 50px;
+    }
+
+    /* Optional background colors for visual separation */
+    #set1 { background-color: #f8d7da; }
+    #set2 { background-color: #d4edda; }
+    #set3 { background-color: #d1ecf1; }
+
+    p { font-family: Arial, sans-serif; font-size: 16px; }
+    h3 { font-family: Arial, sans-serif; }
+  </style>
+</head>
+<body>
+
+  <div id="set1">
+    <h3>Set 1: Margin 0, Padding 0</h3>
+    <p>Paragraph 1: All text is tightly packed. No space between text and borders, and no space between paragraphs.</p>
+    <p>Paragraph 2: Notice how dense this layout looks when margin and padding are removed.</p>
+    <p>Paragraph 3: Everything is compact. Removing margin and padding removes spacing completely.</p>
+  </div>
+
+  <div id="set2">
+    <h3>Set 2: Margin 10px, Padding 10px</h3>
+    <p>Paragraph 1: There is comfortable breathing space (10px). Suitable for normal reading.</p>
+    <p>Paragraph 2: The space between paragraphs comes from the 10px margin.</p>
+    <p>Paragraph 3: Text is more readable compared to Set 1 due to added spacing.</p>
+  </div>
+
+  <div id="set3">
+    <h3>Set 3: Margin 50px, Padding 50px</h3>
+    <p>Paragraph 1: Very wide spacing (50px). Text appears deeply inside the container.</p>
+    <p>Paragraph 2: The space between paragraphs is also very large (margin extends outside the element).</p>
+    <p>Paragraph 3: Everything is spaced out significantly. Useful for visual emphasis or large layouts.</p>
+  </div>
+
+</body>
+</html>

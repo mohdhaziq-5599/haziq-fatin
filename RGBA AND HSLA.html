@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RGBA and HSLA Color Models</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ddd;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 150px);
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    /* RGBA colors */
+    .rgba-red { background-color: rgba(255, 0, 0, 1); }
+    .rgba-orange { background-color: rgba(255, 165, 0, 1); }
+    .rgba-slate { background-color: rgba(112, 128, 144, 1); }
+    .rgba-purple { background-color: rgba(128, 0, 128, 1); }
+    .rgba-green { background-color: rgba(0, 128, 0, 1); }
+    .rgba-cyan { background-color: rgba(0, 255, 255, 1); }
+
+    /* HSLA colors */
+    .hsla-brick { background-color: hsla(0, 60%, 40%, 1); }
+    .hsla-gold { background-color: hsla(50, 100%, 50%, 1); }
+    .hsla-blue { background-color: hsla(210, 100%, 40%, 1); }
+    .hsla-deep { background-color: hsla(260, 60%, 40%, 1); }
+    .hsla-forest { background-color: hsla(120, 60%, 30%, 1); }
+    .hsla-teal { background-color: hsla(180, 60%, 40%, 1); }
+  </style>
+</head>
+<body>
+  <h1>RGBA and HSLA Color Models</h1>
+  <div class="grid">
+    <div class="box rgba-red">RGBA Red</div>
+    <div class="box hsla-brick">HSLA Brick</div>
+    <div class="box rgba-orange">RGBA Orange</div>
+    <div class="box hsla-gold">HSLA Gold</div>
+
+    <div class="box rgba-slate">RGBA Slate</div>
+    <div class="box hsla-blue">HSLA Blue</div>
+    <div class="box rgba-purple">RGBA Purple</div>
+    <div class="box hsla-deep">HSLA Deep</div>
+
+    <div class="box rgba-green">RGBA Green</div>
+    <div class="box hsla-forest">HSLA Forest</div>
+    <div class="box rgba-cyan">RGBA Cyan</div>
+    <div class="box hsla-teal">HSLA Teal</div>
+  </div>
+</body>
+</html>
